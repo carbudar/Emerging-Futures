@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(160, 194, 200);
+
+}
+
+.padding-top{
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+
+.full-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+
+.header-left{
+    padding-left: 2vw;
+}
+
+.header-right{
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.header-right h3:hover{
+    color: blue;
+}
+
+.home-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homePageNumber{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16rem;
+    transform: translateY(-7vh);
+}
+
+.home-container h3{
+    transform: translateY(-6vh);
+}
+
+.info-container{
+    height: 200vh;
+    width: 100vw;
+    padding: 5vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 208, 156);
+}
+
+.info-container h1{
+    font-size: 300%;
+    line-height: 150%;
+}
+
+.infoPage1,
+.infoPage2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#hook{
+    width: 40%;
+
+}
+
+#why{
+    text-align: right;
+    width: 50%;
+    place-self: end;
+  
+
+
+}
+
+#what{
+    width: 70%;
+
+
+}
+
+#how{
+    text-align: center;
+    width: 60%;
+    place-self: center;
+    transform: translateY(-10vh);
+
+}
+/* graph page  */
+.graph-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.graph-text{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh;
+    box-sizing: border-box;
+}
+
+.graph-text-top{
+    height: 50%;
+    width: 80%;
+}
+
+.graph-title{
+    font-size: 400%;
+}
+
+.graph-desc{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    justify-self: flex-end;
+}
+
+.graphs{
+    height: 100%;
+    width: 65vw;
+}
+
+#dataGraph{
+    height: 100%;
+    width: 100%;
+}
+
+.svgStyling{
+    z-index: 100;
+}
+.documentation-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.video-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.videoStyle{
+    height: 100%;
+    width: 100%;
+}
+
+
+.intro-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5vh;
+    box-sizing: border-box;
+}
+
+.intro-container h3{
+    width: 80%;
+}
+.morePicButton{
+    height: 3vh;
+    width: 30vw;
+    background-color: aqua;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.morePicButton:hover{
+    background-color: aquamarine;
+}
+.buttonStyling{
+    text-align: center;
+}
+.extraPic{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    place-self: end;
+    align-items: center;
+    display: none;
+    margin-top: 5vh;
+}
+.imageFull{
+    width: 50%;
+    height: auto;
+   }
+   
+   .imageDetail{
+       width: 20%;
+       height: auto;
+   
+   }
+
+.show-gallery{
+    display:block;
+}
+
+.showPics{
+    display: block;
+}
+
