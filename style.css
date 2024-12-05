@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(160, 194, 200);
+    
 
 }
 
@@ -26,7 +26,9 @@ body{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    color:#95b1ee;
 }
+
 
 
 .header-left{
@@ -41,7 +43,7 @@ body{
 }
 
 .header-right h3:hover{
-    color: blue;
+    color:#f2ff93;
 }
 
 .home-container{
@@ -51,6 +53,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color:  #364c84;
 }
 
 .homePageNumber{
@@ -61,10 +64,12 @@ body{
     align-items: center;
     font-size: 16rem;
     transform: translateY(-7vh);
+    color: #f2ff93;
 }
 
 .home-container h3{
     transform: translateY(-6vh);
+    color: rgb(201, 217, 230);
 }
 
 .info-container{
@@ -74,12 +79,13 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: rgb(177, 208, 156);
+    background-color: #c5d5f6;
 }
 
 .info-container h1{
     font-size: 300%;
     line-height: 150%;
+    color: #364c84;
 }
 
 .infoPage1,
@@ -122,6 +128,8 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    background-color:#364c84;
+
     
 }
 
@@ -133,15 +141,18 @@ body{
     justify-content: space-between;
     padding: 3vh;
     box-sizing: border-box;
+    color:#c5d5f6;
 }
 
 .graph-text-top{
     height: 50%;
     width: 80%;
+   
 }
 
 .graph-title{
     font-size: 400%;
+    color:#f2ff93;
 }
 
 .graph-desc{
@@ -170,6 +181,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    background-color:#364c84;
 }
 
 .video-container{
@@ -197,24 +209,32 @@ body{
     justify-content: flex-end;
     padding: 5vh;
     box-sizing: border-box;
+    color: #f2ff93;
+    line-height: 5vh;
+    
 }
 
 .intro-container h3{
     width: 80%;
+    color: #c6d7fd;
+    
 }
 .morePicButton{
     height: 3vh;
     width: 30vw;
-    background-color: aqua;
+    background-color: #c5d5f6;
+    color: #364c84;
     padding: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3vh;
     
 }
 
 .morePicButton:hover{
-    background-color: aquamarine;
+    background-color: #95b1ee;
+    color: #f2ff93;
 }
 .buttonStyling{
     text-align: center;

@@ -122,20 +122,20 @@ picBtn.addEventListener('click', () => {
             .attr('y', d => y(d.value))
             .attr('width', x.bandwidth())
             .attr('height', d => height - y(d.value))
-            .attr('fill', '#7e8e20')
+            .attr('fill', '#f2ff93')
             .on('mouseover', function (event, d) {
-                d3.select(this).transition().duration(50).attr('fill', '#b6ca93');
+                d3.select(this).transition().duration(50).attr('fill', '#95b1ee');
                 svg.append('text')
                     .attr('class', 'hover-text')
                     .attr('x', parseFloat(d3.select(this).attr('x')) + x.bandwidth() / 2)
                     .attr('y', parseFloat(d3.select(this).attr('y')) - 10)
                     .attr('text-anchor', 'middle')
                     .attr('font-size', '14px')
-                    .attr('fill', '#7e8e20')
+                    .attr('fill', '#95b1ee')
                     .text(d.value);
             })
             .on('mouseout', function () {
-                d3.select(this).transition().duration(50).attr('fill', '#7e8e20');
+                d3.select(this).transition().duration(50).attr('fill', '#f2ff93');
                 svg.selectAll('.hover-text').remove();
             });
 
